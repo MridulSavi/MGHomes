@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MissionGroup Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.missiongroup.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Mission Group Test Cases">
+		<classes>
+			<class name="com.missiongroup.qa.testcases.PropertyManagerHomePageTest"></class>
+		</classes>
+	</test>
+</suite>
